@@ -4,7 +4,7 @@ import urllib2
 import os
 
 ## Download paramters
-image_type = "Project"
+image_type = "Avatar"
 movie = "Avatar"
 url = "https://www.google.com/search?q="+movie+"&source=lnms&tbm=isch"
 

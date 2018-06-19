@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 #Create browser object, by default it creates Firefox object
-browser = webdriver.Firefox()
+browser = webdriver.Firefox(executable_path=r'C:\Users\Charles\Downloads\geckodriver.exe')
 print "WebDriver Object", browser
 
 #Maximize browser and browse to facebook website

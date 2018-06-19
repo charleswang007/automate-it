@@ -9,8 +9,9 @@ tree = html.fromstring(page.content)
 print("Page Object:", tree)
 
 #Select HTML elements and get data
-plans = tree.xpath('//h2[@class="pricing-card-name alt-h3"]/text()')
+plans = tree.xpath('//h2[@class="alt-h3"]/text()')
 pricing = tree.xpath('//span[@class="default-currency"]/text()')
 
 #Print the extracted data
-print("Plans:", plans, "\nPricing:", pricing)
+print("Plans:", plans)
+print("Pricing:", pricing)
