@@ -1,1 +1,2 @@
 # automate-it
+Business process automation is the technology-enabled automation of activities that accomplish a specific function or workflow. It is an organizational transformation that aims to drive process efficiency, consistency, and repeatability. Many business processes, such as HR onboarding, lead management, financial reports, and invocing, among others, can be easily automated to achieve these goals across the organization using Python modules
