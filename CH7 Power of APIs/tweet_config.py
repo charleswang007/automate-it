@@ -1,13 +1,13 @@
 offers_sydney = {
     "content":"Weekend Offers, avail 30% discount today!",
-    "day":"2016-08-27",
+    "day":"2018-06-27",
     "time":"13:25",
     "timezone":"Australia/Sydney"
 }
 
 post_newyork = {
     "content":"Introducing sun glasses at your favorite stores in NY!",
-    "day":"2016-08-27",
+    "day":"2018-06-27",
     "time":"12:41",
     "timezone":"America/New_York"
 }
