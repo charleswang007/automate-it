@@ -14,5 +14,5 @@ message = client.messages.create(
     to=config.MYNUMBER,
     from_=config.CALLERID,
     media_url='https://pic.funnygifsbox.com/uploads/2014/09/5c92fb79ad481f9a0ce640845a074ea0.gif',
-    body="Hey Allen! Can you receive this message? --- Kobe")
+    body="Hey There! Can you receive this message? --- Kobe")
 
