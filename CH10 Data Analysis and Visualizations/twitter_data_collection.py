@@ -4,12 +4,12 @@ from tweepy.streaming import StreamListener
 import json
 
 #consumer key, consumer secret, access token, access secret.
-ckey="<consumer key>"
-csecret="<consumer secret key>"
-atoken="<access token>"
-asecret="<access secret>"
+ckey='PMjg2sgb9WQCPN2DUjEH4lLpL'
+csecret='KhIRi19EgJE9960PaS12GjXYEltR3OBG3O64hHFOpuXrS9L6bk'
+atoken='510696917-CV5RjVIElEKj4UkAqNt6Y7nM5m2LcPe7loObuItG'
+asecret='93idoc5xrWuyezbc0ENBGj56uo0BMps54zrcnyvB00T5w'
 
-tweets_data_path = 'twitter_data.txt'
+tweets_data_path = 'twitter_data_new.txt'
 f = open(tweets_data_path, "w")
 
 #Inherit stream listener to get the twitter data
@@ -37,5 +37,5 @@ auth.set_access_token(atoken, asecret)
 
 #Filter twitter stream based on "iPhone 7" and "Note 5"
 twitterStream = Stream(auth, listener())
-twitterStream.filter(track=["iPhone 7","Note 5"])
+twitterStream.filter(track=["lebron","durant"])
 f.close()
